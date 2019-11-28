@@ -1,11 +1,43 @@
+html {
+  background-color: #ECEEF1;
+}
+
+/* FORM */
+
 .main-form {
-  position: fixed; /* or absolute */
-  top: 50%;
-  left: 50%;
-  /* bring your own prefixes */
-  transform: translate(-50%, -50%);
+  
+  background: white;
   border: solid 1px;
   border-radius: 2px;
+  height: 100%;
+  width: 318px;
+  padding: 30px;
+  font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin: auto;
+
+}
+
+.title-form {
+  color: #4C4C4C;
+  line-height: 1.1;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.subtitle-form {
+  color: #4C4C4C;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.subtitle-form a {
+  color: #0077C5;
+  text-decoration: none;
+  font-size: 12px;
 }
 
 fieldset {
@@ -16,8 +48,87 @@ fieldset {
 
 label {
   display: block;
+  font-weight: 400;
+  color: #404040;
+  font-size: 14px;
+  line-height: 25px;
+  padding-bottom: 6px;
 }
 
 input {
   display: block;
+  width: 304px;
+  height: 32px;
+  min-width: 160px;
+  padding-left: 8px;
+  padding-right: 6px;
+  margin: 0;
+  border: 1px solid #C1C5C8;
+  border-radius: 3px;
 }
+
+.error {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  min-height: 20px;
+}
+
+.btn {
+  border-radius: 4px;
+}
+
+.btn-submit {
+  background: #0077C5;
+  border: #0077C5;
+  text-transform: capitalize;
+  height: 44px;
+  width: 100%;
+  padding: 6px 12px;
+  color: white;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.terms-form {
+  display: block;
+  text-align: center;
+  font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: italic;
+  color: #757575;
+}
+
+.terms-form a,
+.footer-form a{
+  color: #0077C5;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.footer-form {
+  margin: 32px -30px -30px;
+  padding: 16px;
+  background-color: #ECEEF1;
+  text-align: center;
+  font-size: 10px;
+  color: #8d9096;
+}
+
+/* IMAGES */
+.submit-lock {
+  /* background-image: url(/images/lock.png); */
+  background-repeat: no-repeat;
+  background-position: left;
+  background-origin: content-box;
+  height: 16px;
+  } 
+
+  .password-lock {
+    background-image: url(/images/password-lock.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-origin: content-box;
+    background-size: 1.5rem 1.5rem;
+    } 

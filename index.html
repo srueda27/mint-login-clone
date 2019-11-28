@@ -1,48 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Mint Login</title>
-  </head>
-  <body>
-    <header></header>
-    <main>
-      <div class="main-form">
-        <h1>Create an Intuit account</h1>
-        <p>
-          One account for everything Intuit, including Mint.
-        </p>
-        <a href="#">learn more</a>
-        <form action="#" method="POST">
-          <fieldset class="user-info">
-            <label for="email">
-              Email address
-              <input type="email" name="email" />
-            </label>
 
-            <label for="phone">
-              Phone (Recommended)
-              <input type="phone" name="phone" />
-            </label>
-          </fieldset>
-          <fieldset class="password">
-            <label for="password">Password</label>
-            <input type="password" name="password" />
-          </fieldset>
-          <button name="submit">Create Account</button>
-        </form>
-        <p>
-          By clicking Create account, you agree to our Terms and have read and
-          acknowledge our Privacy Statement.
-        </p>
-        <footer>
-          <p>Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.</p>
-        </footer>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Mint Login</title>
+</head>
+
+<body>
+  <header></header>
+  <main>
+    <div class="main-form">
+      <h1 class="title-form">Create an Intuit account</h1>
+      <div class="subtitle-form">
+        One account for everything Intuit, including Mint. <br>
+        <a href="#">Learn more</a>
       </div>
-    </main>
-    <footer></footer>
-  </body>
+      <form action="#" method="POST">
+        <fieldset class="user-info">
+          <label for="email">
+            Email address
+            <input type="email" name="email" />
+          </label>
+          <span class="error email-error"></span>
+
+          <label for="phone">
+            Phone (Recommended)
+            <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
+          </label>
+          <span class="error phone-error"></span>
+
+        </fieldset>
+        <fieldset class="password">
+          <label for="password">Password</label>
+          <input class="password-lock" type="password" name="password" />
+          <span class="error email-error"></span>
+
+        </fieldset>
+        <button name="submit" class="btn btn-submit"> <img class="submit-lock" src="images/lock.png"> Create Account
+        </button>
+      </form>
+      <p class="terms-form">
+        By clicking Create account, you agree to our <a href="#">Terms</a> and have read and
+        acknowledge our <a href="#">Privacy Statement</a>.
+      </p>
+      <footer class="footer-form">
+        Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a>.
+      </footer>
+    </div>
+  </main>
+  <footer></footer>
+
+
+</body>
+
 </html>
