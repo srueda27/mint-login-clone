@@ -6,14 +6,16 @@ html {
 /* HEADER */
 
 .signin-header {
-  display: block;
-  padding: 10px 30px;
+  display: grid;
+  grid-template-columns: 92% 8%;
+  padding: 0 30px;
   margin: 0;
 }
 
 .signin-header div,
-.signin-header button{
-  float: right;
+.signin-header button {
+  justify-self: end;
+  padding-right: 10px;
 }
 
 .signin-header a,
@@ -21,23 +23,36 @@ html {
   font-weight: 400;
   font-size: 12px;
   line-height: 1.5;
+  margin: 0; 
 }
 
 .signin-header p {
   color: #505050;
 }
 
+.signin-header a {
+  color: #0077C5;
+}
+
 .btn-signin { 
-  height: 32px;
-  padding: 20px 0;
+  width: 100px;
+  font-size: 13px;
+  height: 34px;
   background: #0077C5;
   border-radius: 4px;
   border: 1px solid #4c4c4c;
   color: white;
   cursor: pointer;
-  font-size: 1.125em;
   font-weight: normal;
+  padding-top: ;
 }
+
+.main-logo {
+  width: 300px;
+  height: 90px;
+}
+
+
 
 /* FORM */
 
@@ -157,6 +172,14 @@ input {
   background-position: left;
   background-origin: content-box;
   height: 16px;
+}
+
+.submit-signin {
+  /* background-image: url(/images/lock.png); */
+  background-repeat: no-repeat;
+  background-position: left;
+  background-origin: content-box;
+  height: 12px;
 }
 
 .password-lock {
