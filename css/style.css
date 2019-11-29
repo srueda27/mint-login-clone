@@ -66,11 +66,13 @@ html {
   vertical-align: top;
 }
 
-.logos ul {
+.logos ul,
+footer ul {
   list-style-type: none;
 }
 
-.logos ul li {
+.logos ul li,
+footer ul li {
   display: inline;
 }
 
@@ -208,4 +210,30 @@ input {
   background-position: right center;
   background-origin: content-box;
   background-size: 1.5rem 1.5rem;
+}
+
+/* FOOTER-PAGE */
+
+.footer-page,
+.footer-page a {
+  color: #505050;
+}
+
+.footer-page ul li {
+  padding-left: 10px;
+}
+
+.footer-page ul {
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+}
+
+.footer-page p {
+  font-size: 12px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
 }
