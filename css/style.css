@@ -1,0 +1,239 @@
+html {
+  background-color: #eceef1;
+  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* HEADER */
+
+.signin-header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 30px;
+  margin: 0;
+}
+
+.signin-header div,
+.signin-header button {
+  justify-self: end;
+  padding-right: 10px;
+}
+
+.signin-header a,
+.signin-header p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.signin-header p {
+  color: #505050;
+}
+
+.signin-header a {
+  color: #0077c5;
+}
+
+.btn-signin {
+  width: 100px;
+  font-size: 13px;
+  height: 34px;
+  background: #0077c5;
+  border-radius: 4px;
+  border: 1px solid #4c4c4c;
+  color: white;
+  cursor: pointer;
+  font-weight: normal;
+}
+
+.main-logo {
+  width: 300px;
+  height: 90px;
+}
+
+.form-header {
+  text-align: center;
+}
+
+.circle-logos {
+  width: 23px;
+  height: 23px;
+}
+
+.text-logos {
+  padding-right: 9px;
+  vertical-align: top;
+}
+
+footer ul,
+.logos ul {
+  list-style-type: none;
+}
+
+footer ul li,
+.logos ul li {
+  display: inline;
+}
+
+/* FORM */
+
+.main-form {
+  background: white;
+  border: solid 1px;
+  border-radius: 2px;
+  height: 100%;
+  width: 318px;
+  padding: 30px;
+  margin: auto;
+}
+
+.title-form {
+  color: #4c4c4c;
+  line-height: 1.1;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.subtitle-form {
+  color: #4c4c4c;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.subtitle-form a {
+  color: #0077c5;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+label {
+  display: block;
+  font-weight: 400;
+  color: #404040;
+  font-size: 14px;
+  line-height: 25px;
+  padding-bottom: 6px;
+}
+
+input {
+  display: block;
+  width: 304px;
+  height: 32px;
+  min-width: 160px;
+  padding-left: 8px;
+  padding-right: 6px;
+  margin: 0;
+  border: 1px solid #c1c5c8;
+  border-radius: 3px;
+}
+
+.error {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  min-height: 20px;
+}
+
+.btn {
+  border-radius: 4px;
+}
+
+.btn-submit {
+  background: #0077c5;
+  border: #0077c5;
+  text-transform: capitalize;
+  height: 44px;
+  width: 100%;
+  padding: 6px 12px;
+  color: white;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.terms-form {
+  display: block;
+  text-align: center;
+  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: italic;
+  color: #757575;
+}
+
+.terms-form a,
+.footer-form a {
+  color: #0077c5;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.footer-form {
+  margin: 32px -30px -30px;
+  padding: 16px;
+  background-color: #eceef1;
+  text-align: center;
+  font-size: 10px;
+  color: #8d9096;
+}
+
+/* IMAGES */
+.submit-lock {
+  /* background-image: url(/images/lock.png); */
+  background-repeat: no-repeat;
+  background-position: left;
+  background-origin: content-box;
+  height: 16px;
+}
+
+.submit-signin {
+  /* background-image: url(/images/lock.png); */
+  background-repeat: no-repeat;
+  background-position: left;
+  background-origin: content-box;
+  height: 12px;
+}
+
+.password-lock {
+  background-image: url(/images/password-lock.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-origin: content-box;
+  background-size: 1.5rem 1.5rem;
+}
+
+/* FOOTER-PAGE */
+
+.footer-page,
+.footer-page a {
+  color: #505050;
+}
+
+.footer-page ul li {
+  padding-left: 10px;
+}
+
+.footer-page ul {
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  padding-left: 0;
+}
+
+.footer-page p {
+  font-size: 12px;
+  text-align: center;
+}
