@@ -16,29 +16,30 @@
         <p>Already have an Intuit account?</p>
         <a href="#">I forgot my User ID or Password</a>
       </div>
-      <button class="btn btn-signin"><img class="submit-signin" src="images/lock.png"><span> Sign In</span></button>
+      <button class="btn btn-signin"><img class="submit-signin" src="images/lock.png" alt="lock image"><span> Sign
+          In</span></button>
     </div>
     <div class="form-header">
-      <img class="main-logo" src="/images/intuit_grey.svg" alt="">
+      <a href="#"><img class="main-logo" src="/images/intuit_grey.svg" alt="intuit logo"></a>
       <div class="logos">
         <ul>
           <li>
-            <img class="circle-logos" src="images/mint_favicon.svg" alt="">
+            <a href="#"><img class="circle-logos" src="images/mint_favicon.svg" alt="mint logo"></a>
           </li>
           <li>
-            <img class="text-logos" src="images/mint_text.svg" alt="">
+            <a href="#"><img class="text-logos" src="images/mint_text.svg" alt="mint logo"></a>
           </li>
           <li>
-            <img class="circle-logos" src="images/quickbooks_favicon_2x.svg" alt="">
+            <a href="#"><img class="circle-logos" src="images/quickbooks_favicon_2x.svg" alt="quickbooks logo"></a>
           </li>
           <li>
-            <img class="text-logos" src="images/quick_books_text.svg" alt="">
+            <a href="#"><img class="text-logos" src="images/quick_books_text.svg" alt="quickbooks logo"></a>
           </li>
           <li>
-            <img class="circle-logos" src="images/tt_favicon_2x.svg" alt="">
+            <a href="#"><img class="circle-logos" src="images/tt_favicon_2x.svg" alt="turbotax logo"></a>
           </li>
           <li>
-            <img class="text-logos" src="images/turbo_tax_text.svg" alt="">
+            <a href="#"><img class="text-logos" src="images/turbo_tax_text.svg" alt="turbotax logo"></a>
           </li>
         </ul>
       </div>
@@ -55,24 +56,25 @@
         <fieldset class="user-info">
           <label for="email">
             Email address
-            <input type="email" name="email" />
+            <input type="email" name="email" id="email" />
           </label>
           <span class="error email-error"></span>
 
           <label for="phone">
             Phone (Recommended)
-            <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
+            <input id="phone" type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
           </label>
           <span class="error phone-error"></span>
 
         </fieldset>
         <fieldset class="password">
           <label for="password">Password</label>
-          <input class="password-lock" type="password" name="password" />
+          <input id="password" class="password-lock" type="password" name="password" />
           <span class="error email-error"></span>
 
         </fieldset>
-        <button name="submit" class="btn btn-submit"> <img class="submit-lock" src="images/lock.png"> Create Account
+        <button name="submit" class="btn btn-submit"> <img class="submit-lock" src="images/lock.png" alt="lock image">
+          Create Account
         </button>
       </form>
       <p class="terms-form">
@@ -97,7 +99,8 @@
       </li>
     </ul>
     <div>
-      <p>© 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</p>
+      <p>© 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered
+        trademarks of Intuit Inc.</p>
       <p>Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
     </div>
   </footer>

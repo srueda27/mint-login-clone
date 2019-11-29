@@ -3,11 +3,15 @@ html {
   font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* HEADER */
 
 .signin-header {
-  display: grid;
-  grid-template-columns: 92% 8%;
+  display: flex;
+  justify-content: flex-end;
   padding: 0 30px;
   margin: 0;
 }
@@ -23,7 +27,7 @@ html {
   font-weight: 400;
   font-size: 12px;
   line-height: 1.5;
-  margin: 0; 
+  margin: 0;
 }
 
 .signin-header p {
@@ -31,20 +35,19 @@ html {
 }
 
 .signin-header a {
-  color: #0077C5;
+  color: #0077c5;
 }
 
-.btn-signin { 
+.btn-signin {
   width: 100px;
   font-size: 13px;
   height: 34px;
-  background: #0077C5;
+  background: #0077c5;
   border-radius: 4px;
   border: 1px solid #4c4c4c;
   color: white;
   cursor: pointer;
   font-weight: normal;
-  padding-top: ;
 }
 
 .main-logo {
@@ -66,13 +69,13 @@ html {
   vertical-align: top;
 }
 
-.logos ul,
-footer ul {
+footer ul,
+.logos ul {
   list-style-type: none;
 }
 
-.logos ul li,
-footer ul li {
+footer ul li,
+.logos ul li {
   display: inline;
 }
 
@@ -227,13 +230,10 @@ input {
   font-weight: 400;
   font-size: 12px;
   text-align: center;
+  padding-left: 0;
 }
 
 .footer-page p {
   font-size: 12px;
   text-align: center;
-}
-
-a {
-  text-decoration: none;
 }
