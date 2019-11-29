@@ -52,7 +52,27 @@ html {
   height: 90px;
 }
 
+.form-header {
+  text-align: center;
+}
 
+.circle-logos {
+  width: 23px;
+  height: 23px;
+}
+
+.text-logos {
+  padding-right: 9px;
+  vertical-align: top;
+}
+
+.logos ul {
+  list-style-type: none;
+}
+
+.logos ul li {
+  display: inline;
+}
 
 /* FORM */
 
