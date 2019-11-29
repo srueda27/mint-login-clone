@@ -1,24 +1,22 @@
 html {
-  background-color: #ECEEF1;
+  background-color: #eceef1;
 }
 
 /* FORM */
 
 .main-form {
-  
   background: white;
   border: solid 1px;
   border-radius: 2px;
   height: 100%;
   width: 318px;
   padding: 30px;
-  font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: auto;
-
 }
 
 .title-form {
-  color: #4C4C4C;
+  color: #4c4c4c;
   line-height: 1.1;
   font-size: 24px;
   font-weight: 400;
@@ -26,7 +24,7 @@ html {
 }
 
 .subtitle-form {
-  color: #4C4C4C;
+  color: #4c4c4c;
   font-size: 14px;
   font-weight: 300;
   line-height: 1.2;
@@ -35,7 +33,7 @@ html {
 }
 
 .subtitle-form a {
-  color: #0077C5;
+  color: #0077c5;
   text-decoration: none;
   font-size: 12px;
 }
@@ -63,7 +61,7 @@ input {
   padding-left: 8px;
   padding-right: 6px;
   margin: 0;
-  border: 1px solid #C1C5C8;
+  border: 1px solid #c1c5c8;
   border-radius: 3px;
 }
 
@@ -79,8 +77,8 @@ input {
 }
 
 .btn-submit {
-  background: #0077C5;
-  border: #0077C5;
+  background: #0077c5;
+  border: #0077c5;
   text-transform: capitalize;
   height: 44px;
   width: 100%;
@@ -93,7 +91,7 @@ input {
 .terms-form {
   display: block;
   text-align: center;
-  font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 400;
   font-style: italic;
@@ -101,8 +99,8 @@ input {
 }
 
 .terms-form a,
-.footer-form a{
-  color: #0077C5;
+.footer-form a {
+  color: #0077c5;
   text-decoration: none;
   font-size: 12px;
 }
@@ -110,7 +108,7 @@ input {
 .footer-form {
   margin: 32px -30px -30px;
   padding: 16px;
-  background-color: #ECEEF1;
+  background-color: #eceef1;
   text-align: center;
   font-size: 10px;
   color: #8d9096;
@@ -123,12 +121,12 @@ input {
   background-position: left;
   background-origin: content-box;
   height: 16px;
-  } 
+}
 
-  .password-lock {
-    background-image: url(/images/password-lock.png);
-    background-repeat: no-repeat;
-    background-position: right center;
-    background-origin: content-box;
-    background-size: 1.5rem 1.5rem;
-    } 
+.password-lock {
+  background-image: url(/images/password-lock.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-origin: content-box;
+  background-size: 1.5rem 1.5rem;
+}
